@@ -1,0 +1,7 @@
+<?php
+   
+
+   $connection = mysqli_connect('localhost', 'id10277518_ankit', 'ankit', 'id10277518_trip');  
+    if(!$connection) {
+        die("Database connection failed");
+    }

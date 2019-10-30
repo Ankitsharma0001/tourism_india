@@ -1,0 +1,85 @@
+body,html{
+    width : 100%;
+    height : 100%;
+}
+
+body{
+   max-width: 100%;
+   font-family: Roboto;
+   font-size: 20px;
+   color: black;
+   background-color: lightcyan;
+}            
+
+/*
+#background-image{
+    background-image: url("img/home1.jpg");
+    background-size: 100% 100%;
+    height: 450px;
+    padding-top: 3%;
+    color: chocolate;
+    margin-top: 5px;
+    width: 100%;
+   
+}
+*/
+
+#content{
+    background-color: transparent;
+    max-width: 45%;
+    padding: 5% 2%;
+    margin-top: 0px;
+    margin-left: 40%;
+}
+
+#tours{
+    font-family: Roboto;  
+    padding-top: 5px;
+    text-align: center;
+    color: darkviolet;
+    background-color: whitesmoke;
+}
+.tours_div {
+    display: inline-block;
+    max-height: 230px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    color: darkviolet;
+    margin: 1% 2% 2% 2%;
+}
+
+
+
+#monuments{
+    font-family: Roboto;  
+    padding-top: 5px;
+    text-align: center;
+    color: red;
+    background-color: whitesmoke;
+}
+.monuments_left {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    color: darkviolet;
+    margin: 1% 2% 1% 2%;
+}
+.monuments_left h4{
+    margin : 2%; 
+}
+.monuments_right {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    color: darkviolet;
+    margin: 1% 2% 1% 2%;
+}
+.monuments_right h4{
+    margin : 2%; 
+}
